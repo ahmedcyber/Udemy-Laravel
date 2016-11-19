@@ -1,0 +1,3 @@
+GALLERY INDEX
+
+{{$test}}
