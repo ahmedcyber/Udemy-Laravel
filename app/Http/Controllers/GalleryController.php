@@ -11,16 +11,14 @@ class GalleryController extends Controller
     // List Galleries
     public function index()
     {
-        //die('Gallery/index');
-        $test = 'TESTING';
-        return view('gallery/index', compact('test'));
+        return view('gallery/index');
     }
 
     // show create form
 
     public function create()
     {
-        die('Gallery/create');
+        return view('gallery/create');
     }
 
     // show create form
